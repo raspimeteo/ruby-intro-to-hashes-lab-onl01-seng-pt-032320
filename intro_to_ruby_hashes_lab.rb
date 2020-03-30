@@ -27,10 +27,7 @@ def monopoly_with_second_tier
       },
       :rent_in_dollars => 
       {
-        :one_place_owned => 25,
-        :two_places_owned => 50,
-        :three_places_owned => 100,
-        :four_places_owned => 200
+
       }
     }
     
@@ -42,7 +39,12 @@ def monopoly_with_third_tier
   monopoly = {:railroads => {
     :pieces => 4,
     :names => {},
-    :rent_in_dollars => {}
+    :rent_in_dollars => {
+        :one_place_owned => 25,
+        :two_places_owned => 50,
+        :three_places_owned => 100,
+        :four_places_owned => 200
+    }
   }}
 end
 
