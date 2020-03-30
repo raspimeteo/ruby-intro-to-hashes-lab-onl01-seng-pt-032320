@@ -4,7 +4,7 @@ end
 
 def actor
   actor = {}
-  actor[:name] = "Dwayne The Rock Johnson"
+  actor[:name] = 'Dwayne The Rock Johnson'
 end
 
 def monopoly
